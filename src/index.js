@@ -1,4 +1,14 @@
+import React from 'react'
+import { render } from 'react-dom'
+import TodoApp from './Components/TodoApp'
 import TodoContext from './TodoContext'
+
+import './index.css'
+
+render (
+  <TodoApp />,
+  document.getElementById('root')
+)
 
 // initialize
 TodoContext

@@ -1,5 +1,5 @@
 export default class Todo {
-
+  
   create (arg) {
     const title = arg.title;
     if (!title) {
